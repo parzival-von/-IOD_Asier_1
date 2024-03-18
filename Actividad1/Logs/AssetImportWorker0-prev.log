@@ -1,0 +1,506 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'ca' Physical Memory: 32542 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Convidat/Documents/GitHub/-IOD_Asier_1/Actividad1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50654
+Successfully changed project path to: C:/Users/Convidat/Documents/GitHub/-IOD_Asier_1/Actividad1
+C:/Users/Convidat/Documents/GitHub/-IOD_Asier_1/Actividad1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9472] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3922815348 [EditorId] 3922815348 [Version] 1048832 [Id] WindowsEditor(7,ai01-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9472] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3922815348 [EditorId] 3922815348 [Version] 1048832 [Id] WindowsEditor(7,ai01-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 59.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Convidat/Documents/GitHub/-IOD_Asier_1/Actividad1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon(TM) RX 580 (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8136 MB
+    Driver:   27.20.14524.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014074 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 57.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (666ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3519.
+Memory consumption went from 112.2 MB to 112.2 MB.
+Total: 2.605500 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.169700 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3245.643227 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0f5437631088e61aaaa49ca35a723f') in 0.095912 seconds 
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 45.433405 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(645d13622069b6e458021c23d35fef22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/New Material.mat using Guid(645d13622069b6e458021c23d35fef22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da4e0e634644df1dc9677e88b3c5110') in 0.030501 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.165425 seconds.
+  path: Assets/Prefab/GraySheep Variant.prefab
+  artifactKey: Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/GraySheep Variant.prefab using Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8a51cdae0388bd916c40e29f66aa66') in 0.012447 seconds 
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 65.336549 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3926844c99d2c7d19b860ab3dbbc6a') in 0.011357 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa610b3166daad9dedf0e837ca9e2e88') in 0.013638 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 10.679606 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078cc974cf5a013c4822072c213b4912') in 0.014244 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 4.410857 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7e1833fb62587e6739c4fad9619df') in 0.013988 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bf75294ae9a9a53376ee667c43c74d') in 0.010363 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 4.834206 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bec38c741129b5d639965d8cef5882') in 0.011062 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e66cc10ad619a7709bd4a75db314a1') in 0.009651 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.009384 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba540ce7e6a102a89953d3ab28873e9f') in 0.010816 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793ededfd0d670a18cb286c63f3cd1b1') in 0.009700 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.211590 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a676413c9338ffca3cfea36453f05cf') in 0.011030 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 3.820924 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2f45b7c485133b907902a4ec9df10e') in 0.011444 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 3.445173 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ffb34b4deefea2439081c4a62e7a4b') in 0.012061 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 4.221631 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcfef2ce024a88c4bb86216ef899b09') in 0.012622 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 2.199056 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346406aef623fd1d477cc6dcf1cc9644') in 0.008343 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 2.828727 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3b9d98c06239c4b6c5ad39a28aec7') in 0.011269 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 4.018886 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d281e816d0100c57b2108e251fe021') in 0.012931 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efedda0f81211b740d95f4133b35e7db') in 0.010280 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.602205 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9655571a6775bc20c36a779074ad6902') in 0.011394 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161ee1650e1fdafcc2dc53d441320ad') in 0.012123 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 17.098616 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459c032383d13de6b69aa14b5bdfc950') in 0.010829 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 2.216494 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657c0f6379f9bdb720cd301e987372ff') in 0.010778 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 4.221728 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c741dbf1c09f07abf8eb984563193ef') in 0.011856 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711f73f4371ff0d84fe46ec22eb7221c') in 0.010769 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 5.449604 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9286ad814b2f2cf32613e1c04e1343') in 0.010673 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 8.461285 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d824133aadf3aa8605f083a9e50195') in 0.008985 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98d58751cd7055f4fb0a0e2dee69d7c') in 0.007165 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 5.028285 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7850e584c8c18c942efbaf030167b54') in 0.009570 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96b09bbd96e3b4b43390a011edd5d09') in 0.006165 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 7.861652 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de2b965387489ad11a6e621eeb92edd') in 0.007666 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Sheep.prefab
+  artifactKey: Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Sheep.prefab using Guid(ed857df1a8ede714d86304d5cb60f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492911dc0a57bf0f3e5c7ca14bd0bd13') in 0.006383 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 9.872081 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febf13a525639e7481fe00358976418e') in 0.008127 seconds 
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 19.757882 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(5fe94ceec60cc204f97239c7de86c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/New Material 1.mat using Guid(5fe94ceec60cc204f97239c7de86c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac03051e096f8bd166a91fb3c6d03717') in 0.011814 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.480838 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(5fe94ceec60cc204f97239c7de86c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Black.mat using Guid(5fe94ceec60cc204f97239c7de86c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34685d061bf378aca309dc914d75c70') in 0.012490 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.445702 seconds.
+  path: Assets/Materials/Gray.mat
+  artifactKey: Guid(645d13622069b6e458021c23d35fef22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Gray.mat using Guid(645d13622069b6e458021c23d35fef22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f7361baf273130808482d07c966c6d') in 0.010016 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 97.819379 seconds.
+  path: Assets/Prefab/BrownSheep Variant.prefab
+  artifactKey: Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/BrownSheep Variant.prefab using Guid(14cb40d94f7b5294c998dd0422f173a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32167657c7afef01e79eb6776137edf2') in 0.014765 seconds 
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 38.669840 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(ff2a6c6f6c93a1841845746c6efc646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/New Material.mat using Guid(ff2a6c6f6c93a1841845746c6efc646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1d231d5521eca0af7c8495935da806') in 0.010447 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.069383 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(ff2a6c6f6c93a1841845746c6efc646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Blue.mat using Guid(ff2a6c6f6c93a1841845746c6efc646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbd4979c005b04ef8f0d8cb8b266baf') in 0.010381 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.070263 seconds.
+  path: Assets/Prefab/GraySheep Variant.prefab
+  artifactKey: Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/GraySheep Variant.prefab using Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98259fa91eec578669a6a9a4eeb5372c') in 0.010996 seconds 
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 185.484335 seconds.
+  path: Assets/Prefab/GraySheep Variant.prefab
+  artifactKey: Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/GraySheep Variant.prefab using Guid(5f74822df66c1cd418d7076b374222c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1ec1048bd7077f8c0dee1c6e79ae44') in 0.008468 seconds 
+Number of asset objects unloaded after import = 101
