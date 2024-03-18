@@ -204,3 +204,11 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Prefabs/Plane.prefab using Guid(6b0e2ea5c289844aa9e017ee454cfa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02317930d76e5e5707dc9ec97ef56878') in 0.501535 seconds 
 Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 678.993231 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8232b425e9695a0f2d57473898c09522') in 0.003882 seconds 
+Number of asset objects unloaded after import = 0
